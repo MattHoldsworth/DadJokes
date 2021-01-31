@@ -1,0 +1,186 @@
+/*Text Styles*/
+.bold {
+    font-weight: bold
+}
+
+.italic {
+    font-style: italic
+}
+
+.normal {
+    font-weight: normal
+}
+
+.textUnderline {
+    text-decoration: underline
+}
+
+.title {
+    font-weight: bold;
+    font-style: italic;
+    color: #f50057;
+    text-shadow: 2px 2px 3px #04167a;
+}
+
+/*Container Styles*/
+
+.titleUnderline {
+    border-bottom: 3px solid  #04167a
+}
+
+.underline {
+    border-bottom: 1px solid #3F51B5
+}
+
+.background {
+    background-color: #71a3ee;
+    width: 100vw;
+    min-height: 100vh
+}
+
+.scrollView {
+    overflow-y: 'scroll';
+    overflow-x: 'scroll'
+}
+
+/*Flex Styles*/
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.flexCol {
+    flex-direction: column
+}
+
+.flexRow {
+    flex-direction: row
+}
+
+.flexStart {
+    justify-content: flex-start
+}
+
+.flexEnd {
+    justify-content: flex-end
+}
+
+.flexBetween {
+    justify-content: space-between
+}
+
+
+/*Dimension Styles*/
+.width100 {
+    width: 100%
+}
+
+.width75 {
+    width: 75%
+}
+
+.width50 {
+    width: 50%
+}
+
+.width25 {
+    width: 25%
+}
+
+.widthAuto {
+    width: auto
+}
+
+.height100 {
+    height: 100%
+}
+
+.adjustWidthMobile {
+    width: 35%
+}
+
+@media screen and (max-width: 800px) {
+    .adjustWidthMobile {
+        width: 75% !important
+    }
+}
+
+/*Position Styles*/
+.alignMiddle {
+    margin: 0 auto
+}
+
+.margin0 {
+    margin: 0 !important
+}
+
+.marginBottom20 {
+    margin-bottom: 20px
+}
+
+.marginTop20 {
+    margin-top: 20px
+}
+
+.marginLeft20 {
+    margin-left: 20px
+}
+
+.marginRight20 {
+    margin-right: 20px
+}
+
+.marginRight10 {
+    margin-right: 10px !important
+}
+
+.padRight10 {
+    padding-right: 10px
+}
+
+.padBottom10 {
+    padding-right: 10px
+}
+
+.padTop20 {
+    padding-top: 20px
+}
+
+.pad20 {
+    padding: 20px
+}
+
+.pad40 {
+    padding: 40px
+}
+
+.pad0 {
+    padding: 0 !important
+}
+
+.floatLeft {
+    float: left
+}
+
+/*Image and Icon Styles*/
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    overflow: "hidden";
+    border-width: 3;
+    border-color: "red"
+}
+
+.imageMed {
+    width: 150px;
+    height: 150px
+}
+
+@media screen and (max-width: 800px) {
+    .imageMed {
+        width: 75px !important;
+        height: 75px !important
+    }
+}
